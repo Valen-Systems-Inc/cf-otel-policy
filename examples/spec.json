@@ -1,0 +1,1 @@
+{"events":["request.completed","request.failed"],"sampleRate":0.1,"maxEventsPerInvocation":2,"dailyInvocations":10000,"correlation":"fresh-random"}

@@ -1,0 +1,5 @@
+[
+ {"event":"request.completed","level":"info","status":200,"durationMs":7,"authorization":"SYNTHETIC_TOKEN","correlationId":"SYNTHETIC_UNTRUSTED_ID","url":"https://example.invalid/?code=SYNTHETIC_CODE","email":"person@example.invalid"},
+ {"event":"request.failed","level":"error","status":503,"durationMs":30,"error":{"message":"SYNTHETIC_PRIVATE_TEXT"}},
+ {"event":"request.completed","level":"info","status":200,"durationMs":3}
+]

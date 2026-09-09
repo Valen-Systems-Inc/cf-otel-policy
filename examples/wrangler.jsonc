@@ -1,0 +1,11 @@
+{
+  "name": "cf-otel-policy-example",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-09",
+  "observability": {
+    "enabled": true,
+    "redact_query_string": true,
+    "logs": {"enabled": true, "invocation_logs": false, "head_sampling_rate": 0.1},
+    "traces": {"enabled": false}
+  }
+}
